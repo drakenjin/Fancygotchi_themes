@@ -1,0 +1,337 @@
+[theme.dev]
+refresh = -1
+log = true
+debug = false
+
+[theme.options]
+stealth_mode = false
+fg_image = ""
+bg_color = "Black"
+bg_image = "240x280e-t-g-v.png"
+bg_anim_image = "240x280matrix-v.gif"
+font_sizes = [ 10, 8, 10, 55, 25, 9,]
+font = "DejaVuSansMono"
+font_bold = "DejaVuSansMono-Bold.ttf"
+status_font = "DejaVuSansMono"
+font_awesome = "font-awesome-solid.otf"
+label_spacing = 9
+size_offset = 5
+cursor = "❤"
+friend_bars = ">"
+friend_no_bars = "│"
+base_text_color = [ "cyan",]
+main_text_color = []
+color_mode = [ "P", "P",]
+boot_animation = true
+boot_max_loops = 3
+boot_total_duration = 2
+
+[theme.menu.options]
+motion_text = true
+motion_text_speed = 20
+position = [ "center", "bottom",]
+width = "100%"
+height = 127
+button_height = 20
+text_font_size = "Medium"
+timeout = 0
+border_color = "black"
+highlight_color = "#ff9800"
+highlight_text_color = "black"
+button_bg_color = "black"
+button_text_color = "white"
+button_font_size = "Medium"
+bg_color = "black"
+
+[theme.widget.face]
+position = [ 15, 46,]
+text_font_size = "Huge"
+color = [ "black",]
+icon = true
+icon_color = false
+mask = false
+refine = 150
+image_type = "png"
+f_awesome = false
+f_awesome_size = 40
+zoom = 0
+z_axis = 102
+
+[theme.widget.name]
+position = [ 15, 130,]
+text_font_size = "Bold"
+color = [ "black",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.pwnspotify]
+position = [ 45, 124,]
+text_font_size = "Bold"
+color = [ "black",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.channel]
+position = [ 127, 225,]
+label = ""
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+color = [ "#883a8cff",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.aps]
+position = [ 14, 205,]
+label = "aps"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 0
+label_line_spacing = 0
+color = [ "#0a541fff",]
+icon = false
+f_awesome = true
+f_awesome_size = 20
+z_axis = 0
+
+[theme.widget.uptime]
+position = [ 127, 250,]
+label = "UP"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+color = [ "#883a8cff",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+
+[theme.widget.line1]
+position = [ 0, 0, 240, 0,]
+color = [ "black",]
+z_axis = 0
+
+[theme.widget.line2]
+position = [ 0, 0, 240, 0,]
+color = [ "black",]
+z_axis = 0
+
+[theme.widget.friend_face]
+position = [ 129, 142,]
+text_font_size = "Medium"
+color = [ "#883a8cff",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.friend_name]
+position = [ 129, 130,]
+text_font_size = "Medium"
+color = [ "#883a8cff",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.shakes]
+position = [ 127, 235,]
+label = "PWND"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+color = [ "#883a8cff",]
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.mode]
+position = [ 198, 250,]
+text_font_size = "Bold"
+color = [ "#1c7308ff",]
+icon = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.status]
+position = [ 125, 46,]
+text_font_size = "Bold"
+color = [ "#580873ff",]
+wrap = true
+max = 20
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.clock1]
+position = [ 87, 5,]
+text_font_size = "Medium"
+color = [ "black",]
+wrap = true
+max = 20
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.clock2]
+position = [ 90, 269,]
+text_font_size = "Medium"
+color = [ "black",]
+wrap = true
+max = 20
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.bluetooth]
+position = [ 15, 232,]
+label = "BT"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+color = [ "#e1e3e2",]
+icon = false
+f_awesome = true
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.memtemp_cpu]
+position = [ 72, 205,]
+color = [ "#ec1c92ff",]
+label = "c"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.memtemp_mem]
+position = [ 72, 215,]
+color = [ "#ec1c92ff",]
+label = "m"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.memtemp_temp]
+position = [ 72, 225,]
+color = [ "#ec1c92ff",]
+label = "t"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.memtemp_freq]
+position = [ 72, 230,]
+color = [ "#ec1c92ff",]
+label = "freq"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.bat]
+position = [ 15, 248,]
+label = "PWR"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+color = [ "#00ff4cff",]
+icon = false
+f_awesome = true
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.deauth_count]
+position = [ 5, 220,]
+color = [ "#e1e3e2",]
+label = "D"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+icon = false
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.assoc_count]
+position = [ 50, 220,]
+label = "A"
+label_font_size = "Bold"
+text_font_size = "Medium"
+label_spacing = 9
+label_line_spacing = 0
+color = [ "#e1e3e2",]
+icon = false
+f_awesome = true
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.Lv]
+position = [ 125, 135,]
+text_font_size = "Bold"
+color = [ "black",]
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.Str]
+position = [ 125, 143,]
+text_font_size = "Bold"
+color = [ "black",]
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.Exp]
+position = [ 125, 125,]
+text_font_size = "Bold"
+color = [ "black",]
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.connection_status]
+position = [ 5, 230,]
+text_font_size = "Medium"
+color = [ "#00ff80ff",]
+f_awesome = true
+f_awesome_size = 40
+z_axis = 0
+
+[theme.widget.ip1]
+position = [ 5, 140,]
+text_font_size = "Medium"
+color = [ "#c800ffff",]
+f_awesome = false
+f_awesome_size = 40
+z_axis = 0
